@@ -32,7 +32,7 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: ' Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Tea Cup. </>,
+  footerEditLink: 'Edit this page on GitHub',
+  footerText: <>MIT {new Date().getFullYear()} © Tea Cup. &nbsp;</>,
   unstable_faviconGlyph: '👋',
 }
