@@ -18,7 +18,7 @@ async function update() {
         if(error) {
           const UpdateEmbed = new Discord.MessageEmbed()
             .setColor("#ba2a54")
-            .setTitle("AstroUptime Website - Server Error")
+            .setTitle("AstroUptime Docs - Server Error")
             .setDescription(
               `${error}`
             );
@@ -31,7 +31,7 @@ async function update() {
           if(error1) {
             const UpdateEmbed = new Discord.MessageEmbed()
               .setColor("#ba2a54")
-              .setTitle("AstroUptime Website - Server Error")
+              .setTitle("AstroUptime Docs - Server Error")
               .setDescription(
                 `${error1}`
               );
@@ -45,7 +45,7 @@ async function update() {
               if(error2) {
                 const UpdateEmbed = new Discord.MessageEmbed()
                   .setColor("#ba2a54")
-                  .setTitle("AstroUptime Website - Server Error")
+                  .setTitle("AstroUptime Docs - Server Error")
                   .setDescription(
                     `${error2}`
                   );
@@ -59,7 +59,7 @@ async function update() {
 
                 const UpdateEmbed2 = new Discord.MessageEmbed()
                   .setColor("#57bd76")
-                  .setTitle("AstroUptime Website - Server Update")
+                  .setTitle("AstroUptime Docs - Server Update")
                   .setDescription(
                     "Website has been rebuilt and server is restarting!"
                   );
